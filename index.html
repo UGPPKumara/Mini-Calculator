@@ -17,9 +17,14 @@
         }
 
         h1{
+            padding-top: 10px;
             color: #ccc;
             align-items: center;
-            padding: 20px;
+
+        }
+        h3{
+            color: #ccc;
+
         }
 
         #calculator {
@@ -44,12 +49,24 @@
             font-size: 16px;
             margin: 5px;
         }
+
+        .new{
+            background-color: aqua;
+        }
+
+        .footer{
+            height: 400px;
+            margin-top: 50px;
+            background-color: black;
+            background-image: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWF0aHxlbnwwfHwwfHx8MA%3D%3D);
+        }
     </style>
 </head>
 <body>
 
     <div class="header">
         <h1> Mini Calculator</h1>
+        <h3>This wil be help for your calculation.</h5>
 
     </div>
     <div id="calculator">
@@ -63,13 +80,17 @@
         <button onclick="appendToDisplay('7')">7</button>
         <button onclick="appendToDisplay('8')">8</button>
         <button onclick="appendToDisplay('9')">9</button>
-        <button onclick="appendToDisplay('+')">+</button> 
+        <button class="new" onclick="appendToDisplay('+')">+</button> 
         <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="appendToDisplay('*')">*</button>
-        <button onclick="appendToDisplay('-')">-</button>
-        <button onclick="calculateResult()">=</button> 
-        <button onclick="appendToDisplay('/')">/</button>
-        <button onclick="clearDisplay()">C</button>  
+        <button class="new" onclick="appendToDisplay('*')">*</button>
+        <button class="new" onclick="appendToDisplay('-')">-</button>
+        <button class="new" onclick="calculateResult()">=</button> 
+        <button class="new" onclick="appendToDisplay('/')">/</button>
+        <button class="new" onclick="clearDisplay()">C</button>  
+     </div>
+
+     <div class="footer">
+
      </div>
 
     <script>
