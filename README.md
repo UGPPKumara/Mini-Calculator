@@ -1,7 +1,7 @@
 # Mini Calculator Web Application
 
 
-<p>This is the calculator i was created with simple basic maths calculations. </p>
+<p>This calculator was created with simple basic maths calculations. </p>
 
 ## Technologies
 <p>Html , CSS , JavaScript </p>
